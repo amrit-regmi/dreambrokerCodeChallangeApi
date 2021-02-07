@@ -20,7 +20,7 @@ const analyzeText = (text) => {
       withoutSpaces: text.length - (characters[' ']||0) ,
     },
     wordCount: text.split(' ').filter((word) => word !== '').length,
-    charcterCount : characterCount
+    characterCount : characterCount
   }
   return  analysedData
 }
